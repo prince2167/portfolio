@@ -1,0 +1,17 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+  align-items: center;
+  gap: 20px;
+  padding: 5rem 0rem 4rem 0rem;
+}
+
+.contacts {
+  display: flex;
+  gap: 30px;
+}
+.contacts a {
+  color: black;
+}
