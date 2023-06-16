@@ -1,0 +1,21 @@
+.projectPage {
+  height: 100vh;
+}
+.ProjectContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.projectList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 80px;
+  justify-content: center;
+}
+
+@media (max-width: 610px) {
+  .projectPage {
+    height: 100%;
+  }
+}
